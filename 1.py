@@ -1,0 +1,6 @@
+sec = int(input("초를 입력하시오"))
+mint = int(sec/60)
+print(mint)
+print("분")
+print(int(sec) - int(mint*60))
+print("초")
